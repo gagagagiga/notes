@@ -17,6 +17,16 @@
     * 目標: C:\Windows\explorer.exe ms-settings:connecteddevices
     * 變更圖示: %systemroot%\system32\setupapi.dll
 
+## Edge InPrivate視窗捷徑
+[How to Create InPrivate Browsing Shortcut for Microsoft Edge Chromium](https://www.tenforums.com/tutorials/153406-how-create-inprivate-browsing-shortcut-microsoft-edge-chromium.html)
+
+* 目標: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" -inprivate -new-window http://whosnumber.com/tw/
+
+
+## 管理 Windows Defender Credential Guard
+
+https://learn.microsoft.com/zh-tw/windows/security/identity-protection/credential-guard/credential-guard-manage
+
 ## Total Commander
 
 ### 工具列設定：
