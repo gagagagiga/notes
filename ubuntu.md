@@ -24,12 +24,3 @@ git clone https://github.com/shlinux/faenza-icon-theme.git
 cd faenza-icon-theme
 sudo ./INSTALL
 ```
-
-
-## Qt 開發環境
-
-需要額外安裝的套件
-```bash
-sudo apt install build-essential
-sudo apt install mesa-common-dev
-```
