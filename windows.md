@@ -56,3 +56,13 @@ C:\totalcmd\WCMICONS.DLL
 ### 檔案列表自訂欄位
 cm_SrcCustomView1
 自訂欄位顯示，包含註解
+
+
+## XnViewMP
+設定 > 檢視 > 資訊
+{Filename With Ext} - {Size KB} KB
+{Width}x{Height} {Zoom}%
+{EXIF:Date Taken}
+{EXIF:Model}
+{META:LensID}
+{EXIF:Focal Length 35mm}mm - f{EXIF:F-Number} -  {EXIF:Exposure Time} - ISO{EXIF:ISO Value}
