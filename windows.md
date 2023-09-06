@@ -66,3 +66,7 @@ cm_SrcCustomView1
 {EXIF:Model}
 {META:LensID}
 {EXIF:Focal Length 35mm}mm - f{EXIF:F-Number} -  {EXIF:Exposure Time} - ISO{EXIF:ISO Value}
+
+## 停止更新 Windows 10/11 選用更新項目
+
+[下載](wushowhide.diagcab)
