@@ -70,3 +70,10 @@ cm_SrcCustomView1
 ## 停止更新 Windows 10/11 選用更新項目
 
 [下載](wushowhide.diagcab)
+
+
+## 如何修復 Windows 10 中的 MBR？
+
+進入“進階選項”螢幕後，點擊“命令提示字元”以啟動它。然後鍵入命令 bootrec.exe並按回車鍵，查看可用於此工具的選項。（有四個參數可用：/FixMbr、/FixBoot、/ScanOs 和 /RebuildBcd。每個參數都可以幫助您解決不同的啟動問題。
+
+https://www.diskpart.com/tw/windows-10/fix-mbr-windows-10.html

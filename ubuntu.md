@@ -27,6 +27,8 @@ sudo ./INSTALL
 
 ### 修改Grub開機預設項目
 
+Ubuntu 23.10.1
+
 參考自
 https://blog.csdn.net/m0_59839672/article/details/119180437
 
@@ -34,7 +36,16 @@ https://blog.csdn.net/m0_59839672/article/details/119180437
 sudo gnome-text-editor /etc/default/grub
 ```
 
-GRUB_DEFAULT=0 改成 GRUB_DEFAULT=4，預設成windows
+GRUB_DEFAULT=0
+GRUB_TIMEOUT_STYLE=hidden
+GRUB_TIMEOUT=0
+
+改成第五個項目windows開機
+
+GRUB_DEFAULT=4
+GRUB_TIMEOUT_STYLE=menu
+GRUB_TIMEOUT=10
+
 
 修改完grub後執行
 
