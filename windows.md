@@ -77,3 +77,33 @@ cm_SrcCustomView1
 進入“進階選項”螢幕後，點擊“命令提示字元”以啟動它。然後鍵入命令 bootrec.exe並按回車鍵，查看可用於此工具的選項。（有四個參數可用：/FixMbr、/FixBoot、/ScanOs 和 /RebuildBcd。每個參數都可以幫助您解決不同的啟動問題。
 
 https://www.diskpart.com/tw/windows-10/fix-mbr-windows-10.html
+
+
+## Mount or Unmount VHD or VHDX File
+
+### 掛載：
+```
+Mount-VHD -Path "Full\path\to\vhd\file"
+```
+
+### 卸載：
+```
+Get-VHD -Path "Full\path\to\vhd\file"
+Dismount-VHD -DiskNumber <number>
+```
+
+https://winaero.com/mount-or-unmount-vhd-or-vhdx-file-in-windows-10/
+
+## How to add or remove a Open in Windows Terminal as administrator context menu for all users in Windows 11
+
+### Add Expandable Right Click "Open in Windows Terminal as administrator" Context Menu
+[下載](powershell/Add_expandable_Open_in_Windows_Terminal_as_administrator.reg)
+
+### Add "Open in Windows Terminal as administrator" Context Menu
+[下載](powershell/Add_Open_in_Windows_Terminal_as_administrator.reg)
+
+### Remove "Open in Windows Terminal as administrator" Context Menu
+[下載](powershell/Remove_Open_in_Windows_Terminal_as_administrator.reg)
+
+
+https://www.elevenforum.com/t/add-open-in-windows-terminal-admin-context-menu-in-windows-11.581/
