@@ -9,4 +9,6 @@ My Notes
 
 * [Windows10 簡易安裝導覽](install_win10/README.md)
 
-* Qt 相關設定(qt.md)
+* [Qt 相關設定](qt.md)
+
+* [Android 筆記](android.md)
