@@ -107,3 +107,28 @@ https://winaero.com/mount-or-unmount-vhd-or-vhdx-file-in-windows-10/
 
 
 https://www.elevenforum.com/t/add-open-in-windows-terminal-admin-context-menu-in-windows-11.581/
+
+
+## 睡眠、休眠
+
+### 開啟休眠
+```
+powercfg /hibernate on
+```
+
+控制台 > 電源選項 > 選擇按下電源鈕的行為 > 開機設定 > 休眠 ：打勾
+
+
+### 喚醒電腦的裝置
+
+列舉所有可以喚醒電腦的裝置
+```
+powercfg /devicequery wake_armed
+```
+關閉裝置可以喚醒電腦：
+
+例如：裝置管理員 > HID-compliant mouse > 電源管理 > 允許這裝置喚醒電腦： 取消打勾
+
+桌機要把鍵盤關閉，才不會莫名其妙自行喚醒電腦
+
+https://zerotech.club/disable-mouse-waking-up-computer/
