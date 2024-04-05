@@ -29,6 +29,14 @@ adb shell pm uninstall -k --user 0 miui.systemui.plugin
 
 * 移除完後，小米UI的功能，右上角下拉選單就失效了
 
+
+* 如果要安裝回來
+```
+adb shell cmd package install-existing miui.systemui.plugin
+```
+
 參考網址：
 * https://www.zhihu.com/question/512681245/answer/3068211492
 * https://www.cnblogs.com/tangsong41/p/11069125.html
+* https://www.ippa.top/1023.html
+* https://gist.github.com/dhruvSHA256/691d7765896bc3c2f1ff2e75f1e1438b
